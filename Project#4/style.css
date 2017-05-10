@@ -1,0 +1,251 @@
+body{
+	background: url(image/background.png);
+	margin:0;
+	padding:0;
+}
+
+/* header */
+
+
+.dpro_left{
+	height:50px;
+	text-align: right;
+}
+
+.Logo{
+	background-image: url(image/crown2.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	height:230px;
+	position:relative;
+	top:25px;
+}
+
+.dpro_right{
+	height:50px;	
+	text-align: left;
+}
+
+.header{
+	background: url(image/clouds.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family: Ranga;
+	font-size:24px;
+}
+
+.center{
+	position:absolute;
+	top:-9999px;
+}
+
+/* header navigation*/
+
+.dpro_right li, .dpro_left li{
+	display:inline-block;
+	text-transform:uppercase;
+}
+
+.dpro_right li a:hover, .dpro_left li a:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+.dpro_right ul{
+	padding: 0;
+}
+
+.dpro_right li a, .dpro_left li a{
+	text-decoration: none;
+	color:black;
+	transition:.s;
+}
+
+.point_header{
+	width:4px;
+	height:4px;
+	background-color: #c4c4c4;
+	border-radius:50%;
+	display: inline-flex;
+	position:relative;
+	bottom:6px;
+	margin:0 5px 0 5px;
+}
+
+.center{
+	position:absolute;
+}
+
+/* H1 SIMPLE + CREATIVE*/
+
+.simple{
+	text-transform: uppercase;
+	font-family: Trajan Pro;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.simple h1{
+	font-size: 52px;
+	margin: 60px 0 0 40px;
+	letter-spacing: 35px;
+	
+}
+
+.simple h2{
+	letter-spacing: 15px;
+	margin-left: 15px;
+	font-size: 24px;
+}
+
+.Line_top, .line_bottom{
+	border-top:1px solid black;
+	width: 400px;
+}
+
+.Line_top{
+	margin: 0 0 -10px 0;
+}
+
+.line_bottom{
+	margin: -7px 0 0 0;
+}
+
+.simply_point{
+	position:relative;
+	display: inline-block;
+	width:5px;
+	height:5px;
+	background-color: #0a0a0a;
+	border-radius: 50%;
+	bottom:15px;
+	right:15px;
+}
+
+/* Rabitur text center*/
+
+.Rabitur p{
+	text-align: center;
+	margin-top: 68px;
+	text-transform: uppercase;
+	font-family: Calibri;
+}
+
+/* block image + titles*/
+ .blocks{
+ 	margin-top:65px;
+ }
+.block_width{
+	width:310px;
+	font-family: Calibri;
+	font-size:14px;
+}
+
+.image_line{
+	height:5px;
+	border-top:1px solid #808080; 
+	border-bottom:1px solid #808080;
+	width:300px;
+	margin:10px 0 35px 0;
+}
+
+.block_width h4{
+	margin-bottom:20px;
+	text-transform: uppercase;
+	font-size:16px;
+	font-weight:600;
+}
+
+.block_width p{
+	margin-bottom: 20px;
+}
+
+.block_width p:last-child{
+	margin-top:30px;
+	font-size:12px;
+	text-align: center;
+	font-family: Cambria;
+}
+
+/* lock block ( lock right lock left*/
+
+.rightlock{
+	position:relative;
+	right:50px;
+}
+
+.leftlock{
+	position:relative;
+	left:50px;
+}
+
+.lock{
+	font-family: Trajan Pro;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 60px;
+	margin-bottom: 85px;
+}
+
+.lock p{
+	margin-top: 20px;
+}
+
+/* suspen + menu block*/
+
+.suspen {
+	font-family: Calibri;
+	line-height: 19px;
+	font-size: 14px;
+}
+
+.suspen h3{
+	text-transform: uppercase;
+	font-size:18px;
+}
+
+.suspen a{
+	color:#545555;
+	padding-right:50px;
+}
+
+.suspen a:hover{
+	color:red;
+}
+.suspen ul{
+	padding:0;
+}
+.suspen li{
+	list-style: none;
+
+}
+
+/* footer */
+
+.footerline{
+	height: 1px;
+	width:100%;
+	background-color: gray;
+	margin:77px 0 45px 0;
+}
+
+footer{
+	margin-bottom: 120px;
+}
+footer ul{
+	float:right;
+}
+footer p{
+	color:gray;
+	font-family: Calibri;	
+	font-size: 12px;
+	float:left;
+}
+
+footer li{
+	display: inline-block;
+	font-size:25px;
+	margin-right: 20px;
+}

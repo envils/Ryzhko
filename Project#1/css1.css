@@ -1,0 +1,365 @@
+/*======================== body style =============*/
+div.project{
+	background-color:#b2b2b2;
+	width:1000px;
+	margin:0 auto;
+}
+
+/*======================== top bar =============*/
+div.top_navigation{
+	background-color: #2d2928;
+	width:100%;
+	height: 52px;	
+
+}
+
+.top_navigation ul li{
+	display: inline-block;
+	padding-right:5px;
+	border-right: 1px solid #c4c4c4;
+	margin-top:15px;
+	font-size:12px;
+	font-family: Georgia;
+}
+
+.top_navigation ul li a{
+	color:#c4c4c4;
+	transition: 0.5s;
+}
+
+.top_navigation ul li a:hover{
+	color:#982216;
+}
+
+.top_navigation ul li:nth-last-child(1){
+	border-right: 1px solid transparent;
+}
+
+/*======================== right circle=============*/
+.right_circle div.circle_right{
+	width:32px;
+	height: 32px;
+	background-color: white;
+	border-radius: 50%;
+	display:inline-block;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+/*======================== brand text =============*/
+.brand_text h1{
+ 	font-size:100px;
+ 	text-align: center;
+ 	font-family:Georgia;
+ 	font-weight: 400;
+ 	text-transform: uppercase;
+ 	color:#282828;
+}
+
+.brand_text h2{
+ 	font-size:20px;
+ 	text-align: center;
+ 	font-family:Georgia;
+ 	font-weight: 400;
+ 	text-transform: uppercase;
+ 	color:#282828;
+}
+
+/*======================== middle_navigation =============*/
+div.border_middle_top{
+	border-top:1px double grey;
+	border-bottom:1px double grey;
+	width:97%;
+	height:3px;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+div.border_middle_bottom{
+	border-top:1px double grey;
+	border-bottom:1px double grey;
+	width:97%;
+	height:3px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+.middle_navigation ul li{
+	display: inline-block;
+	padding-right:20px;
+	letter-spacing:-1px;
+	margin-top:10px;
+	font-size:14px;
+	font-family: Georgia;
+	text-transform: uppercase;
+}
+
+.middle_navigation ul li a{
+	color: #333333;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+.middle_navigation ul li a:hover{
+	color:#982216;
+}
+/*======================== middle_content=============*/
+div.middle_content{
+font-family: Georgia;
+}
+
+div.content_left{
+	  margin-left: 15px;
+ 		vertical-align: top;
+    display:inline-block;
+    width: 500px;
+}
+
+div.content_right{
+	  width: 400px;
+    position:relative;
+    display:inline-block;
+    margin-top:-20px;
+    margin-left:25px;      
+}
+
+
+div.news_bord img{
+	float:left;
+	margin-right:20px;
+	border:1px solid grey;
+	padding:5px;
+}
+
+div.border{
+	border-top:1px double grey;
+	border-bottom:1px double grey;
+	width:97%;
+	height:3px;
+	margin:20px auto;	
+}
+/*======================== bottom_content============*/
+div.bottom_content{
+	height:655px;
+}
+/*======================== hot news ============*/
+
+div.hot_news{
+	font-size:12px;
+	display:inline-block;
+	vertical-align: top;
+	font-family: Georgia;	
+}
+
+div.lorem_left{
+	width:300px;
+	vertical-align: top;
+	display:inline-block;
+	margin-left:15px;
+}
+
+div.lorem_right{
+	width:300px;
+	vertical-align: top;
+	display:inline-block;
+	margin-left:15px;
+}
+
+div.hot_news img{
+	float:left;
+	padding:4px;
+	border:1px solid grey;
+	margin-right:7px;
+}
+
+div.hot_news a{
+ float:right;
+ display: inline-block;
+ margin-top:-10px;
+ color:#982115;
+ text-transform: uppercase;
+ font-size:10px;
+}
+
+div.hot_news h5{
+	font-weight: bold;
+	margin:2px;
+}
+
+div.hot_news h4{
+	text-transform: uppercase;
+	color:grey;
+	font-size:15px;
+	margin:15px 0 -10px 0;
+}
+
+/*======================== hot news right column ============*/
+div.right_column{
+	
+	display:inline-block;
+	width:200px;
+	margin-left:20px;
+	height:100%;
+
+}
+
+div.right_hot_news_p{
+	display:inline-block;
+	border-top:4px solid grey;
+}
+
+div.right_hot_news{
+display:inline-block;
+position:relative;
+left:160px;
+bottom:643px;
+border-top:4px solid grey;
+margin:0 0 30px 10px;
+}
+
+div.right_hot_news ul{
+	padding:0 15px 0 0;
+	margin:0;
+
+}
+
+div.right_hot_news ul li{
+	text-decoration: none;
+	list-style: none;	
+	font-size:13px;
+	line-height: 19px;
+
+}
+
+div.right_hot_news ul li a{
+	color:#982216;
+	font-family:Georgia;
+}
+
+div.right_column h4{
+	color:grey;
+	font-size:17.4px;
+	font-family: georgia;
+}
+/*======================== border hot news============*/
+div.border_hot_news{
+	border-top:1px double grey;
+	border-bottom:1px double grey;
+	width:630px;
+	height:3px;
+	margin:30px 0 40px 15px;	
+	display:inline-block;
+	position:absolute;
+
+}
+/*======================== bottom hot news============*/
+div.bottom_hot_news{
+	position:relative;
+	bottom:940px;
+	left:22px;
+	font-size:13px;
+	font-family: Georgia;
+	width: 610px;
+}
+div.bottom_hot_news h4{
+	
+	font-size:15px;
+	font-weight: bold;
+	color:#982115;
+}
+div.bottom_hot_news img{
+	border:1px solid grey;
+	padding:4px;
+	margin:5px auto;	
+}
+
+div.bottom_hot_news a{
+	color:#982216;	
+}
+
+div.bottom_hot_navigation ul{
+margin:0 auto;
+padding:0;
+}
+
+div.bottom_hot_navigation ul li {
+	display:inline-block;
+	background-color: #2d2928;
+	margin-left:-2px;
+	padding:7px 15px;
+	text-transform: uppercase;
+}
+
+div.bottom_hot_navigation ul li a{
+	color:white;
+	font-weight: bold;
+	font-family: Georgia;
+	font-size:12px;
+	transition: 0.3s;
+}
+
+div.bottom_hot_navigation ul li a:hover{
+	color:grey;
+	text-decoration: none;
+}
+
+div.bottom_form_column
+{
+	width:136px;
+	display:inline-block;
+	margin-left:11px;
+}
+
+/*======================== themes============*/
+
+div.theme_lacus{
+	display:inline-block;
+	width:155px;
+	font-size:14px;
+	font-family: Georgia;
+	margin:0 20px;
+}
+
+div.theme_lacus h4{
+	color:#444444;
+	margin-bottom:-13px;
+	font-weight: bold;
+	font-size:15px;
+}
+
+div.theme_lacus ul
+{
+	padding:0;
+}
+div.theme_lacus ul li
+{
+	list-style: none;
+	line-height: 18px;
+}
+
+div.theme_lacus ul li a{
+	color:#982115;
+	word-spacing: 8px;
+}
+
+/*======================== footer ============*/
+
+div.footer_text1{
+	display:inline-block;
+	float:left;
+	margin:20px 20px 20px 20px;
+	font-size:12px;
+	color:grey;	
+}
+
+div.footer_text2{
+	display:inline-block;
+	float:right;
+	margin:20px 20px 20px 20px;
+	font-size:12px;
+	color:grey;
+}
+div.clearfix{
+	clear:both;
+}
